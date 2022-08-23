@@ -1,9 +1,10 @@
 /* main color: #1971c2 */
 /* gray color: #212529 */
 
-/* common styles */
+/****************
+ Common Styles
+ ****************/
 
-/* Common Styles */
 * {
   margin: 0;
   padding: 0;
@@ -18,10 +19,19 @@ body {
 section {
   margin-bottom: 6rem;
 }
+h2 {
+  font-size: 42px;
+  margin-bottom: 1rem;
+}
 p {
   font-size: 18px;
+  color: #707070;
 }
-/* Component Styles */
+/****************
+ Component Styles
+ ****************/
+
+/* Header Styles */
 .header-section {
   position: relative;
   width: 100vw;
@@ -81,17 +91,14 @@ p {
 /* Amount Styles */
 .amount-section {
   width: 100%;
+  margin-bottom: 8rem;
 }
 .amount-heading {
   margin-bottom: 2.5rem;
   letter-spacing: -0.5px;
 }
-.amount-title {
-  font-size: 42px;
-  margin-bottom: 0.75rem;
-}
+
 .amount-description {
-  color: #adb5bd;
   line-height: 1.2;
   font-size: 18px;
 }
@@ -104,7 +111,6 @@ p {
   justify-content: space-between;
 }
 .recommened-amounts div {
-  color: #707070;
   margin-bottom: 2.5rem;
   border-radius: 5px;
   background-color: #fafafa;
@@ -130,8 +136,90 @@ p {
   width: 100%;
   text-align: center;
   font-size: 18px;
-  color: #e9ecef;
   border: none;
-  border-bottom: 3px solid #e9ecef;
+  border-bottom: 2px solid #e9ecef;
   padding-bottom: 0.75rem;
+  outline: none;
+}
+.amount-field:focus {
+  border-bottom: 2px solid #3b5bdb;
+  transition: 0.8s;
+}
+::placeholder {
+  color: #adb5bd;
+}
+/* Feature(Donate Plans) Styles */
+.plan-heading {
+  margin-bottom: 2.5rem;
+}
+.donate-plans {
+  display: flex;
+  gap: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: start;
+}
+.donate-plans h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.donate-plans div {
+  padding: 4rem 2rem;
+  border-radius: 5px;
+}
+.donate-plans div:first-child {
+  background: #edf2ff;
+}
+.donate-plans div:nth-child(2) {
+  background: #fff5f5;
+}
+.donate-plans div:last-child {
+  background: #fff9db;
+}
+.donate-plans img {
+  width: 53px;
+  height: 53px;
+  margin-bottom: 2rem;
+}
+
+/* Subscribe Syles */
+.subscribe-heading {
+  margin-bottom: 2.5rem;
+}
+.subscribe-form {
+  background: #d0ebff;
+  width: 60%;
+  margin: 0 auto;
+  padding: 4rem 6rem;
+}
+.subscribe-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-form form input[type="email"] {
+  border: none;
+  outline: none;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  padding: 1rem 3rem 1rem 0.85rem;
+}
+.subscribe-form form input[type="email"]::placeholder {
+  color: #adb5bd;
+}
+.subscribe-btn {
+  background-color: #3b5bdb;
+  padding: 0.85rem 2rem;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  margin-left: -8px;
+  cursor: pointer;
+}
+.subscribe-btn:hover {
+  background-color: #121212;
+  transition: 0.5s;
 }
