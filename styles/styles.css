@@ -1,0 +1,137 @@
+/* main color: #1971c2 */
+/* gray color: #212529 */
+
+/* common styles */
+
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  color: #212529;
+  overflow-x: hidden;
+}
+section {
+  margin-bottom: 6rem;
+}
+p {
+  font-size: 18px;
+}
+/* Component Styles */
+.header-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0.2) 100%);
+}
+.header-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.main-title {
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 1.05;
+  letter-spacing: -0.9px;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+.header-description {
+  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  color: #f8f9fa;
+}
+.btn:link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3b5bdb;
+  padding: 1rem 0.75rem;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+.btn:visited {
+  text-decoration: none;
+  background-color: #3b5bdb;
+}
+.btn:hover {
+  background-color: #5c7cfa;
+}
+.header-btn:hover {
+  background-color: transparent;
+  border: 2px solid #3b5bdb;
+  transition: 0.5s;
+}
+
+/* Amount Styles */
+.amount-section {
+  width: 100%;
+}
+.amount-heading {
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.5px;
+}
+.amount-title {
+  font-size: 42px;
+  margin-bottom: 0.75rem;
+}
+.amount-description {
+  color: #adb5bd;
+  line-height: 1.2;
+  font-size: 18px;
+}
+.amount-part {
+  width: 60%;
+  margin: 0 auto;
+}
+.recommened-amounts {
+  display: flex;
+  justify-content: space-between;
+}
+.recommened-amounts div {
+  color: #707070;
+  margin-bottom: 2.5rem;
+  border-radius: 5px;
+  background-color: #fafafa;
+  width: 136px;
+  height: 123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.recommened-amounts .recommened-active-amount {
+  border: 2px solid #3b5bdb;
+  background-color: #edf2ff;
+}
+.custom-amount {
+  margin-bottom: 1.5rem;
+}
+.amount-form {
+  margin-bottom: 1.5rem;
+}
+.amount-field {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #e9ecef;
+  border: none;
+  border-bottom: 3px solid #e9ecef;
+  padding-bottom: 0.75rem;
+}

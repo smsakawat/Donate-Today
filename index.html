@@ -4,9 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Donate Today</title>
   </head>
   <body>
-    <h1>Donate Today</h1>
+    <section class="header-section">
+      <img class="header-img" src="images/donation1.jpg" alt="" />
+      <div>
+        <h1 class="main-title">Let's Help Those Who Are<br />More In Need</h1>
+        <p class="header-description">
+          We help people to recover from various natural disasters, through
+          your<br />donation a life can be healed.
+        </p>
+        <a href="#" class="btn header-btn">Donate Now</a>
+      </div>
+    </section>
+    <section class="amount-section">
+      <div class="amount-heading">
+        <h2 class="amount-title">Donate Today</h2>
+        <p class="amount-description">
+          Here you can choose your amount for donation from recommended ones<br />
+          or you can give a custom amount as you want
+        </p>
+      </div>
+      <div class="amount-part">
+        <div class="recommened-amounts">
+          <div><p>100tk</p></div>
+          <div class="recommened-active-amount"><p>200tk</p></div>
+          <div><p>500tk</p></div>
+          <div><p>1000tk</p></div>
+          <div><p>5000tk</p></div>
+        </div>
+        <div class="custom-amount">
+          <form action="" class="amount-form">
+            <input
+              class="amount-field"
+              type="text"
+              name="donation-amount"
+              id="donation-amount"
+              placeholder="Other Amount (Taka)"
+            />
+          </form>
+          <a href="#" class="btn">Donate Now</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
