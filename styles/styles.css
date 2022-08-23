@@ -69,7 +69,7 @@ p {
   text-decoration: none;
   color: #fff;
   background-color: #3b5bdb;
-  padding: 1rem 0.75rem;
+  padding: 1rem 2rem;
   font-size: 20px;
   font-weight: 500;
   border: 2px solid transparent;
@@ -82,7 +82,8 @@ p {
 .btn:hover {
   background-color: #5c7cfa;
 }
-.header-btn:hover {
+.header-btn:hover,
+.header-btn:active {
   background-color: transparent;
   border: 2px solid #3b5bdb;
   transition: 0.5s;
@@ -140,6 +141,7 @@ p {
   border-bottom: 2px solid #e9ecef;
   padding-bottom: 0.75rem;
   outline: none;
+  caret-color: #707479;
 }
 .amount-field:focus {
   border-bottom: 2px solid #3b5bdb;
@@ -166,7 +168,7 @@ p {
   margin-bottom: 1rem;
 }
 .donate-plans div {
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   border-radius: 5px;
 }
 .donate-plans div:first-child {
@@ -204,7 +206,7 @@ p {
   outline: none;
   background: #d9d9d9;
   border-radius: 5px 0px 0px 5px;
-  padding: 1rem 3rem 1rem 0.85rem;
+  padding: 1rem 3rem 1rem 1rem;
 }
 .subscribe-form form input[type="email"]::placeholder {
   color: #adb5bd;
@@ -222,4 +224,26 @@ p {
 .subscribe-btn:hover {
   background-color: #121212;
   transition: 0.5s;
+}
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  background-color: #0b0d17;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ced4da;
+}
+.portion-color {
+  color: #fff;
+}
+footer h2 {
+  font-size: 36px;
+  color: #3b5bdb;
+}
+footer .author-name {
+  text-align: start;
+  font-size: 12px;
 }
