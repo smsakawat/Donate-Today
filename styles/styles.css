@@ -110,6 +110,7 @@ p {
 .recommened-amounts {
   display: flex;
   justify-content: space-between;
+  gap: 1.25rem;
 }
 .recommened-amounts div {
   margin-bottom: 2.5rem;
@@ -185,7 +186,37 @@ p {
   height: 53px;
   margin-bottom: 2rem;
 }
+/* Testimonial Styles */
+.testimonial-section {
+  text-align: start;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  border: 1rem solid #3b5bdb;
+  margin-bottom: 6rem;
+  border-radius: 6px;
+}
+.testimonial-section img {
+  width: 200px;
+  height: 210px;
+}
+.testimonial {
+  padding: 1.5rem 1rem;
+}
 
+.testimonial-section h2 {
+  font-size: 24px;
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+}
+
+.testiominal-author {
+  font-size: 16px;
+}
+.testimonial-section small {
+  font-size: 12px;
+  color: #868e96;
+}
 /* Subscribe Syles */
 .subscribe-heading {
   margin-bottom: 2.5rem;
