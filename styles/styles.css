@@ -201,25 +201,50 @@ p {
 .activities {
   display: flex;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
 }
-
+.activities img {
+  width: 240px;
+}
 .activities-part {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
-
-.big-pic {
-  width: 280px;
-  height: 280px;
+.activities div:first-child img:last-child {
+  width: 200px;
+  align-self: flex-end;
 }
-.small-pic {
-  width: 140px;
+.activities div:nth-child(2) img {
+  width: 320px;
+  height: 200px;
+}
+.activities div:nth-child(2) img:last-child {
+  height: 160px;
+}
+.activities div:last-child > div img {
+  width: 104px;
+  height: 170px;
+}
+.activities div:last-child > div img:last-child {
   height: 140px;
 }
+/* .activities-part {
+  flex-shrink: 0;
+}
+.activities div:first-child {
+  flex-basis: 30%;
+}
+.activities div:nth-child(2) {
+  flex-basis: 40%;
+}
+.activities div:last-child {
+  flex-basis: 30%;
+}
 
+.activities div:first-child img:first-child,
+.activities div:last-child img:last-child {
+  width: 200px;
+} */
 /* Testimonial Styles */
 .testimonial-section {
   text-align: start;
