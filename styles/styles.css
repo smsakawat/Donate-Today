@@ -199,7 +199,7 @@ p {
 .gallery-heading {
   margin-bottom: 2.5rem;
 }
-.gallery-cotainer {
+.gallery-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,6 +212,7 @@ p {
   width: 240px;
 }
 .gallery-part {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
