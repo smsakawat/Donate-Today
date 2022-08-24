@@ -192,13 +192,15 @@ p {
   width: 80%;
   margin: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1rem solid #3b5bdb;
+  border-radius: 4px;
   margin-bottom: 6rem;
-  border-radius: 6px;
 }
 .testimonial-section img {
   width: 200px;
-  height: 210px;
+  height: 200px;
 }
 .testimonial {
   padding: 1.5rem 1rem;
@@ -237,7 +239,7 @@ p {
   outline: none;
   background: #d9d9d9;
   border-radius: 5px 0px 0px 5px;
-  padding: 1rem 3rem 1rem 1rem;
+  padding: 1rem 5rem 1rem 1.25rem;
 }
 .subscribe-form form input[type="email"]::placeholder {
   color: #adb5bd;
@@ -274,7 +276,11 @@ footer h2 {
   font-size: 36px;
   color: #3b5bdb;
 }
+footer blockquote {
+  color: #adb5bd;
+}
 footer .author-name {
   text-align: start;
   font-size: 12px;
+  color: #868e96;
 }
