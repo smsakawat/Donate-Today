@@ -228,7 +228,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1rem solid #3b5bdb;
+  border: 1.75rem solid #3b5bdb;
   border-radius: 4px;
   margin-bottom: 6rem;
 }
