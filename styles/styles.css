@@ -199,21 +199,19 @@ p {
 }
 .activities {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
 .activities-part {
   flex-shrink: 0;
-  flex-basis: 33%;
+  flex-basis: 33.33333%;
+  flex-grow: 1;
 }
 
 .big-pic {
   width: 100%;
-  height: auto;
 }
 .small-pic {
   width: 50%;
-  height: auto;
 }
 /* Testimonial Styles */
 .testimonial-section {
