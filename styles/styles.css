@@ -29,6 +29,7 @@ p {
 }
 .flex {
   display: flex;
+  gap: 10px;
 }
 /****************
  Component Styles
@@ -199,20 +200,26 @@ p {
 }
 .activities {
   display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .activities-part {
-  flex-shrink: 0;
-  flex-basis: 33.33333%;
-  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .big-pic {
-  width: 100%;
+  width: 280px;
+  height: 280px;
 }
 .small-pic {
-  width: 50%;
+  width: 140px;
+  height: 140px;
 }
+
 /* Testimonial Styles */
 .testimonial-section {
   text-align: start;
@@ -285,7 +292,28 @@ p {
   background-color: #121212;
   transition: 0.5s;
 }
-
+/* Statistic Styles */
+.statistics-section {
+  width: 60%;
+  margin: 0 auto 6rem;
+}
+.statistics-heading {
+  margin-bottom: 2.5rem;
+}
+.statistic-items {
+  display: flex;
+  justify-content: space-between;
+}
+.statistic-items h3 {
+  color: #3b5bdb;
+  font-size: 42px;
+  font-weight: 600;
+}
+.statistic-items p {
+  color: #adb5bd;
+  text-align: start;
+  font-size: 14px;
+}
 /* Footer Styles */
 footer {
   width: 100%;
